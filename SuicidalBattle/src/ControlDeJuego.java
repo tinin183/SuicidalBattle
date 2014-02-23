@@ -17,6 +17,9 @@ public class ControlDeJuego {
 			case AR_DERECHA: x += 10; y -= 10; break;
 			case AR_IZQUIERDA: x -= 10; y -= 10; break;
 		}
+		
+		soldado.setX(x);
+		soldado.setY(y);
 	}
 	
 	public void atacar(Soldado soldado){
