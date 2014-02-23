@@ -4,12 +4,14 @@ public class Soldado {
 	int x, y;
 	String nombre;
 	Estado estado;
+	Bando bando;
 	
-	public Soldado(int x, int y, String nombre, Estado estado){
+	public Soldado(int x, int y, String nombre, Estado estado, Bando bando){
 		this.x = x;
 		this.y = y;
 		this.nombre = nombre;
 		this.estado = estado;
+		this.bando = bando;
 	}
 	
 	public int getX() { return x; }
@@ -27,5 +29,9 @@ public class Soldado {
 	public Estado getEstado() { return estado; }
 
 	public void setEstado(Estado estado) { this.estado = estado; }
+	
+	public Bando getBando(){ return bando; }
+	
+	public void setBando(Bando bando){ this.bando = bando; }
 	
 }
