@@ -1,4 +1,4 @@
-
+//Comentario
 public class Campo {
 	
 	private char [][] matriz;
